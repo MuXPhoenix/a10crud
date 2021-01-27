@@ -1,2 +1,0 @@
-ng g c components/department
-ng g c components/people-list

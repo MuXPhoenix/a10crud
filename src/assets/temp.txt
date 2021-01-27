@@ -1,0 +1,2 @@
+ng generate service services/warehouse
+ng g c components/warehouse

@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "mock:server": "json-server --watch mocks/data.json",
+    "concat:mocks": "node \"./mocks/concat-json.js\""
   },
   "private": true,
   "dependencies": {
