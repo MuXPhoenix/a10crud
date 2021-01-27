@@ -12,6 +12,7 @@ import { DepartmentComponent } from './components/department/department.componen
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms'; //这个必须不要忘了
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [	
@@ -27,7 +28,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule, //建立新项目时，只要添加了，系统默认
     FormsModule, //如果上面引入了，这里一定要申明一下
-    HttpClientModule,
+    HttpClientModule, BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
